@@ -13,6 +13,9 @@
 		EC6DCDFA26E02434003331A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6DCDF926E02434003331A6 /* Assets.xcassets */; };
 		EC6DCDFD26E02434003331A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6DCDFC26E02434003331A6 /* Preview Assets.xcassets */; };
 		EC6DCE0026E02434003331A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6DCDFE26E02434003331A6 /* LaunchScreen.storyboard */; };
+		EC6DCE0926E0280D003331A6 /* RobotoMono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC6DCE0826E0280D003331A6 /* RobotoMono-Medium.ttf */; };
+		EC6DCE0B26E02AE2003331A6 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC6DCE0A26E02AE2003331A6 /* Quicksand-Regular.ttf */; };
+		EC6DCE0D26E03A05003331A6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6DCE0C26E03A05003331A6 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EC6DCDFC26E02434003331A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC6DCDFF26E02434003331A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC6DCE0126E02434003331A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6DCE0826E0280D003331A6 /* RobotoMono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoMono-Medium.ttf"; sourceTree = "<group>"; };
+		EC6DCE0A26E02AE2003331A6 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		EC6DCE0C26E03A05003331A6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,11 @@
 		EC6DCDF226E02430003331A6 /* WynnCard */ = {
 			isa = PBXGroup;
 			children = (
+				EC6DCE0726E027E1003331A6 /* fonts */,
 				EC6DCDF326E02430003331A6 /* AppDelegate.swift */,
 				EC6DCDF526E02430003331A6 /* SceneDelegate.swift */,
 				EC6DCDF726E02430003331A6 /* ContentView.swift */,
+				EC6DCE0C26E03A05003331A6 /* InfoView.swift */,
 				EC6DCDF926E02434003331A6 /* Assets.xcassets */,
 				EC6DCDFE26E02434003331A6 /* LaunchScreen.storyboard */,
 				EC6DCE0126E02434003331A6 /* Info.plist */,
@@ -73,6 +81,15 @@
 				EC6DCDFC26E02434003331A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC6DCE0726E027E1003331A6 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EC6DCE0A26E02AE2003331A6 /* Quicksand-Regular.ttf */,
+				EC6DCE0826E0280D003331A6 /* RobotoMono-Medium.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC6DCE0026E02434003331A6 /* LaunchScreen.storyboard in Resources */,
+				EC6DCE0926E0280D003331A6 /* RobotoMono-Medium.ttf in Resources */,
 				EC6DCDFD26E02434003331A6 /* Preview Assets.xcassets in Resources */,
 				EC6DCDFA26E02434003331A6 /* Assets.xcassets in Resources */,
+				EC6DCE0B26E02AE2003331A6 /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6DCE0D26E03A05003331A6 /* InfoView.swift in Sources */,
 				EC6DCDF426E02430003331A6 /* AppDelegate.swift in Sources */,
 				EC6DCDF626E02430003331A6 /* SceneDelegate.swift in Sources */,
 				EC6DCDF826E02430003331A6 /* ContentView.swift in Sources */,
